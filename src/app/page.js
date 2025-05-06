@@ -52,7 +52,6 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <h4>ეს არის ცვლილება</h4>
       <form className={styles.container} onSubmit={handleSubmit}>
         {login ? (
           <>
